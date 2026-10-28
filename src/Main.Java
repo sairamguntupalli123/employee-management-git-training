@@ -4,5 +4,7 @@ public class Main {
 
         System.out.println("Welcome to Employee Management");
 
+        System.out.println("Version 2");
+
     }
 }
