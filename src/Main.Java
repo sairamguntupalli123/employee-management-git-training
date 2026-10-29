@@ -7,5 +7,13 @@ public class Main {
         Employee employee = new Employee(101, "John");
 
         employee.displayEmployee();
+
+        SalaryCalculator calculator = new SalaryCalculator();
+
+        double monthlySalary = 5000;
+
+        double annualSalary = calculator.calculateAnnualSalary(monthlySalary);
+
+        System.out.println("Annual Salary: " + annualSalary);
     }
 }
