@@ -15,5 +15,9 @@ public class Main {
         double annualSalary = calculator.calculateAnnualSalary(monthlySalary);
 
         System.out.println("Annual Salary: " + annualSalary);
+
+        EmployeeSearch search = new EmployeeSearch();
+
+        search.searchEmployee(101);
     }
 }
