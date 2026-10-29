@@ -2,9 +2,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Welcome to Employee Management");
+        System.out.println("Employee Management System");
 
-        System.out.println("Version 3");
+        Employee employee = new Employee(101, "John");
 
+        employee.displayEmployee();
     }
 }
